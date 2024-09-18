@@ -20,7 +20,7 @@ function MotionDiv({children, x= -10, y= 0, duration=.3, delay=0, repeat=false}:
        if (isInView) {
             animationControls.start("visible")
        } 
-    }, [isInView])
+    }, [isInView, animationControls])
   return (
     <div ref={ref}>
     <motion.div
