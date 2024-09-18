@@ -1,0 +1,38 @@
+/* @keyframes shine {
+    0% {
+      background-position: 200% 0;
+    }
+    50% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  
+  .animate-shine {
+    background-size: 300% 300%;
+    animation: shine 8s ease-in-out infinite;
+  }
+   */
+
+   h2{
+    text-transform: uppercase;
+    color: transparent;
+    text-shadow: 1px 1px 60px #4c4edc4a;
+  
+   }
+   h3{
+    text-shadow: 1px 1px 60px #70e00035;
+   }
+   .example-card{
+    /* text-transform: uppercase; */
+    /* color: transparent; */
+    box-shadow: 1px 1px 10px #82808027;  
+   }
+   .shadow-btn{
+    box-shadow: 1px 5px 60px #70e0004d;
+   }
+   body{
+    background-color: black;
+   }
