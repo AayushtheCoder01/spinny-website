@@ -34,7 +34,7 @@ function Homepage() {
                 <h4 className='text-xl '>Import</h4>
                 
                 <div className='bg-zinc-900 flex px-5 md:text-lg text-[12px] justify-center items-center p-4 mt-2 rounded-sm '>
-                    <p className='text-purple-600 mr-1'>import </p> <p className='text-cyan-500 mr-1'> {"{ SimpleLoader }"} </p> <p className='text-purple-600 mr-1'>from</p> <p className='text-green-500'>'spinny-loader'</p> 
+                    <p className='text-purple-600 mr-1'>import </p> <p className='text-cyan-500 mr-1'> {"{ SimpleLoader }"} </p> <p className='text-purple-600 mr-1'>from</p> <p className='text-green-500'>{"spinny-loader"}</p> 
                 </div>
             </div>
         </MotionDiv>
