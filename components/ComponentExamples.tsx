@@ -16,11 +16,11 @@ function ComponentExamples() {
     }
   return (
     <div>
-        <div className='grid md:grid-cols-2 mt-4 bg-black h-[40vh] lg:h-auto'>
+        <div className='grid md:grid-cols-2 mt-4 bg-black h-auto lg:h-auto'>
             
             <div className='hidden md:flex bg-black justify-center items-center'>
                 <MotionDiv x={-30} y={0} delay={.3}>
-                    <h3 className=' text-[#70e000] text-2xl md:text-[4rem] lg:text-[6rem] font-bold'>Examples</h3>
+                    <h2 className="text-6xl text-center md:text-8xl tracking-wide bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-700 font-sans font-bold">Examples</h2>
                 </MotionDiv>
             </div>
             

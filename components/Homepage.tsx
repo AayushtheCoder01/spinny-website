@@ -2,9 +2,10 @@ import React from 'react'
 import { LuNavigation } from "react-icons/lu";
 import MotionDiv from './MotionDiv';
 import ComponentExamples from './ComponentExamples';
+import Info from './Info';
 function Homepage() {
   return (
-    <>
+    <div className='flex-col'>
     <div className='text-white w-full bg-black'>
         <MotionDiv x={0} y={20} duration={.3}>
             <div className='flex h-[30vh] md:h-[50vh] justify-center items-center '>
@@ -63,10 +64,14 @@ function Homepage() {
         </MotionDiv>
     </div>
 
-    <div>
+    <div className=''>
         <ComponentExamples/>
     </div>
-    </>
+
+    <div>        
+        <Info/>
+    </div>
+</div>
   )
 }
 
